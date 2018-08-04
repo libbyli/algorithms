@@ -48,4 +48,7 @@ const LinkedList = () => {
     }
     return false;
   };
+  return list;
 };
+
+module.exports = LinkedList;
