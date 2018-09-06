@@ -1,8 +1,12 @@
-const Node = (value) => {
-  this.value = value;
-  this.children = [];
-};
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.children = [];
+  }
+}
 
-const Tree = () => {
-  this.root = null;
-};
+class Tree {
+  constructor() {
+    this.root = null;
+  }
+}
